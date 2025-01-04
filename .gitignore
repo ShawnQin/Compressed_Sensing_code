@@ -1,0 +1,11 @@
+data
+data/*
+figure
+figure/*
+*.fig
+*.eps
+*.pdf
+*.png
+*.dat
+*.mat
+*.asv
