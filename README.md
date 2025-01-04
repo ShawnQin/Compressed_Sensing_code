@@ -4,7 +4,7 @@ Given the statistics of an odor space, characterized by sparse odorants and wide
 
 CMA-ES was used to find the optimal sensitivity matrix of the odor receptors for neurons with and without spontaneous firing. To numerically estimate the mutual information, we used 
 
-The code is tested on MATLAB 2018a, 2020b
+The code is tested on MATLAB 2018a, 2020b on a Mac OS. Code not tested on Windows PC or Linux.
 
 # Dependence
 - The `CMA-ES` package can be downloaded [here](https://cma-es.github.io/cmaes_sourcecode_page.html)
