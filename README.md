@@ -13,11 +13,11 @@ The code is tested on MATLAB 2018a, 2020b
 
 # Simulation
 ## Log-normal concentration distribution
-`optMatrixCMA_v7.m` is the main script used to find the optimal sensitivity matrix. Basic usage: `[wmin,fmin] = optMatrixCMA_v7(numOdor,numRecp,sparsity,sig)` 
+`optMatrixCMA_v7.m` is the main script used to find the optimal sensitivity matrix. Basic usage: `[wmin,fmin] = optMatrixCMA_v7(numOdor,numRecp,sparsity,sig, Cons, r0)` 
 - `numOdor` is the total number of possible odorants, default value 100
 - `numRecp` is the number of OSN, default 30. 
 - `sparsity` the number of average odorants appear in an odor, default 2.
-- `Cons`  a boolean value indicating whether constraints are applied to the input, for example the correlation
+- `Cons`  a string indicating what kind of input correlation structure, default "inde"
 - `r0`    the relative spontaneous firing, 0 ~ 1, by default it is 0
 - `sig` the standard deviation of the log concentration. 
 - `wmin` the optimal values of the sensitivity matrix
