@@ -7,13 +7,12 @@ CMA-ES was used to find the optimal sensitivity matrix of the odor receptors for
 The code is tested on MATLAB 2018a, 2020b
 
 # Dependence
-- The `CMA-ES` package, which could be downloaded [here](https://cma-es.github.io/cmaes_sourcecode_page.html)
+- The `CMA-ES` package can be downloaded [here](https://cma-es.github.io/cmaes_sourcecode_page.html)
 - `Information theoretical estimators toolbox` can be downloaded [here](https://bitbucket.org/szzoli/ite/src/master/)
 - `Gaussian copula mutual information` can be downloaded [here](https://github.com/robince/gcmi)
 
 # Simulation
 ## Log-normal concentration distribution
-
 `optMatrixCMA_v7.m` is the main script used to find the optimal sensitivity matrix. Basic usage: `[wmin,fmin] = optMatrixCMA_v7(numOdor,numRecp,sparsity,sig)` 
 - `numOdor` is the total number of possible odorants, default value 100
 - `numRecp` is the number of OSN, default 30. 
